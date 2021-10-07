@@ -2,7 +2,7 @@
   "name": "src",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "nodemon -e js,mustache,tailwindcss ./src/index.js",
     "build-css": "tailwindcss build public/css/myStyle.css -o public/css/tailwind.css",
