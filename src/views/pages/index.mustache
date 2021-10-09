@@ -9,6 +9,11 @@
     <title>Teste com o mustache com tailwindcss</title>
 </head>
 <body>
-    <h1 class="text-4xl"> Ola mustache e tailwindcss teste1</h1>
+    <h1 class="text-4xl"> Ola mustache e tailwindcss</h1>
+    {{#nomes}}
+        <p>
+            <span>Olá meu nome é {{name}} e tenho {{age}} anos</span>
+        </p>
+    {{/nomes}}
 </body>
 </html>
